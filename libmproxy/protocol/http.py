@@ -699,6 +699,10 @@ class HTTPResponse(HTTPMessage):
     )
 
     @classmethod
+    def get_decoded_content(self):
+        return self.get_decoded_content
+
+    @classmethod
     def from_state(cls, state):
         f = cls(None, None, None, None, None)
         f.load_state(state)

@@ -1,0 +1,1 @@
+<script>function block(a){if((a.nodeName=="LINK"&&a.href=="data:text/css,")||(a.nodeName=="STYLE"&&a.innerText.match(/^\/\*This block of style rules is inserted by AdBlock/))){a.parentElement.removeChild(a)}}document.addEventListener("DOMContentLoaded",function(){document.addEventListener("DOMNodeInserted",function(a){block(a.target)},false)},false);</script>
